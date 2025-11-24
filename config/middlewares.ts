@@ -18,7 +18,6 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      enabled: true,
       headers: '*',
       origin: ['http://localhost:4321', 'http://localhost:3000', 'https://t40associates.com', 'https://t40-website-astro.pages.dev'],
     },
