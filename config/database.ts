@@ -1,4 +1,4 @@
-module.exports = ({ env }) => {
+export default ({ env }) => {
   const client = env('DATABASE_CLIENT', 'postgres');
 
   const connections = {
