@@ -4,8 +4,7 @@
   "info": {
     "singularName": "blog-post",
     "pluralName": "blog-posts",
-    "displayName": "Blog Post",
-    "description": "Blog articles for T40 Associates"
+    "displayName": "blog-post"
   },
   "options": {
     "draftAndPublish": true
@@ -32,8 +31,12 @@
     "featuredImage": {
       "type": "media",
       "multiple": false,
-      "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "category": {
       "type": "enumeration",
@@ -47,8 +50,7 @@
       "required": true
     },
     "tags": {
-      "type": "json",
-      "required": false
+      "type": "json"
     },
     "author": {
       "type": "string",
