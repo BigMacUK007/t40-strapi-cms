@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build
+build/
+.strapi/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Strapi
+.tmp/
+.cache/
+public/uploads/*
+!public/uploads/.gitkeep
+
+# License
+license.txt
